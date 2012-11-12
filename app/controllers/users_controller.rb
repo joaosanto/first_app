@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_filter :index
-
+  def help
+  end
   # GET /users
   # GET /users.json
   def index
